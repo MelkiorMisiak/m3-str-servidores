@@ -1,0 +1,133 @@
+=== M3: SERVIDOR PERIODICO PARA REQUISICOES APERIODICAS ===
+Função simulada: SORT_ACT (desvio de peça)
+Ts = 50 ms | Cs = 10 ms | utilização reservada Cs/Ts = 20.0%
+Chegada das requisições: intervalo aleatório de 10 a 20 ms
+Duração do teste: 500 ms
+Tempo simulado de cada acionamento: 2 ms
+
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=0
+[SERVIDOR] fim do atendimento | jobs=0 | orçamento usado=0.00/10.00 ms | fila=0
+[GERADOR] requisição 1 criada | fila=1
+[GERADOR] requisição 2 criada | fila=2
+[GERADOR] requisição 3 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 1
+[SERVIDOR] peça=1 | execução=2.12 ms | resposta=38.12 ms
+[SORT_ACT] desviando peça 2
+[SERVIDOR] peça=2 | execução=2.08 ms | resposta=27.12 ms
+[SORT_ACT] desviando peça 3
+[SERVIDOR] peça=3 | execução=2.09 ms | resposta=13.13 ms
+[SERVIDOR] fim do atendimento | jobs=3 | orçamento usado=6.29/10.00 ms | fila=0
+[GERADOR] requisição 4 criada | fila=1
+[GERADOR] requisição 5 criada | fila=2
+[GERADOR] requisição 6 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 4
+[SERVIDOR] peça=4 | execução=2.11 ms | resposta=43.39 ms
+[SORT_ACT] desviando peça 5
+[SERVIDOR] peça=5 | execução=2.10 ms | resposta=28.39 ms
+[SORT_ACT] desviando peça 6
+[GERADOR] requisição 7 criada | fila=1
+[SERVIDOR] peça=6 | execução=2.10 ms | resposta=18.42 ms
+[SORT_ACT] desviando peça 7
+[SERVIDOR] peça=7 | execução=4.17 ms | resposta=5.49 ms
+[SERVIDOR] fim do atendimento | jobs=4 | orçamento usado=10.49/10.00 ms | fila=0
+[GERADOR] requisição 8 criada | fila=1
+[GERADOR] requisição 9 criada | fila=2
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=2
+[SORT_ACT] desviando peça 8
+[SERVIDOR] peça=8 | execução=2.09 ms | resposta=24.47 ms
+[SORT_ACT] desviando peça 9
+[SERVIDOR] peça=9 | execução=2.08 ms | resposta=13.48 ms
+[SERVIDOR] fim do atendimento | jobs=2 | orçamento usado=4.17/10.00 ms | fila=0
+[GERADOR] requisição 10 criada | fila=1
+[GERADOR] requisição 11 criada | fila=2
+[GERADOR] requisição 12 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 10
+[GERADOR] requisição 13 criada | fila=3
+[SERVIDOR] peça=10 | execução=2.09 ms | resposta=43.33 ms
+[SORT_ACT] desviando peça 11
+[SERVIDOR] peça=11 | execução=2.09 ms | resposta=31.33 ms
+[SORT_ACT] desviando peça 12
+[SERVIDOR] peça=12 | execução=2.08 ms | resposta=22.32 ms
+[SORT_ACT] desviando peça 13
+[SERVIDOR] peça=13 | execução=2.09 ms | resposta=6.32 ms
+[SERVIDOR] fim do atendimento | jobs=4 | orçamento usado=8.34/10.00 ms | fila=0
+[GERADOR] requisição 14 criada | fila=1
+[GERADOR] requisição 15 criada | fila=2
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=2
+[SORT_ACT] desviando peça 14
+[SERVIDOR] peça=14 | execução=2.11 ms | resposta=30.01 ms
+[SORT_ACT] desviando peça 15
+[SERVIDOR] peça=15 | execução=2.09 ms | resposta=15.00 ms
+[SERVIDOR] fim do atendimento | jobs=2 | orçamento usado=4.20/10.00 ms | fila=0
+[GERADOR] requisição 16 criada | fila=1
+[GERADOR] requisição 17 criada | fila=2
+[GERADOR] requisição 18 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 16
+[SERVIDOR] peça=16 | execução=2.08 ms | resposta=42.75 ms
+[SORT_ACT] desviando peça 17
+[SERVIDOR] peça=17 | execução=2.08 ms | resposta=28.75 ms
+[SORT_ACT] desviando peça 18
+[SERVIDOR] peça=18 | execução=2.08 ms | resposta=10.71 ms
+[SERVIDOR] fim do atendimento | jobs=3 | orçamento usado=6.24/10.00 ms | fila=0
+[GERADOR] requisição 19 criada | fila=1
+[GERADOR] requisição 20 criada | fila=2
+[GERADOR] requisição 21 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 19
+[SERVIDOR] peça=19 | execução=2.09 ms | resposta=36.48 ms
+[SORT_ACT] desviando peça 20
+[SERVIDOR] peça=20 | execução=2.09 ms | resposta=21.43 ms
+[SORT_ACT] desviando peça 21
+[SERVIDOR] peça=21 | execução=2.09 ms | resposta=6.42 ms
+[SERVIDOR] fim do atendimento | jobs=3 | orçamento usado=6.26/10.00 ms | fila=0
+[GERADOR] requisição 22 criada | fila=1
+[GERADOR] requisição 23 criada | fila=2
+[GERADOR] requisição 24 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 22
+[SERVIDOR] peça=22 | execução=2.09 ms | resposta=39.16 ms
+[SORT_ACT] desviando peça 23
+[SERVIDOR] peça=23 | execução=2.09 ms | resposta=31.16 ms
+[SORT_ACT] desviando peça 24
+[SERVIDOR] peça=24 | execução=2.08 ms | resposta=13.16 ms
+[SERVIDOR] fim do atendimento | jobs=3 | orçamento usado=6.26/10.00 ms | fila=0
+[GERADOR] requisição 25 criada | fila=1
+[GERADOR] requisição 26 criada | fila=2
+[GERADOR] requisição 27 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SORT_ACT] desviando peça 25
+[SERVIDOR] peça=25 | execução=2.09 ms | resposta=38.89 ms
+[SORT_ACT] desviando peça 26
+[SERVIDOR] peça=26 | execução=2.08 ms | resposta=28.89 ms
+[SORT_ACT] desviando peça 27
+[SERVIDOR] peça=27 | execução=2.08 ms | resposta=11.89 ms
+[SERVIDOR] fim do atendimento | jobs=3 | orçamento usado=6.26/10.00 ms | fila=0
+[GERADOR] requisição 28 criada | fila=1
+[GERADOR] requisição 29 criada | fila=2
+[GERADOR] requisição 30 criada | fila=3
+
+[SERVIDOR] ativado | orçamento=10.00 ms | fila=3
+[SERVIDOR] fim do atendimento | jobs=0 | orçamento usado=0.00/10.00 ms | fila=3
+
+================ RESUMO DO TESTE ================
+Requisições geradas:       30
+SORT_ACT executadas:       27
+Requisições descartadas:   0
+Requisições ainda na fila: 3
+Maior tamanho da fila:     3
+Utilização reservada:      20.0% (Cs/Ts)
+==================================================
